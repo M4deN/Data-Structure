@@ -20,5 +20,6 @@ int main(){
         y/=2;
         n[x+1]=y;
     }
+    
     return 0;
 }
