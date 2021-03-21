@@ -16,8 +16,7 @@ int main(){
     
     for(x=0; x<100;x++){
     	
-        printf("N[%d] = %.4lf\n", x, n[x]);
-        
+        printf("N[%d] = %.4lf\n", x, n[x]); 
         y/=2;
         n[x+1]=y;
     }
