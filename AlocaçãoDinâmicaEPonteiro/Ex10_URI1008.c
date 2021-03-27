@@ -13,9 +13,10 @@ int main(){
 	Funcionario funcionario, *func;
 	func = &funcionario;
 
-   func = (Funcionario*) malloc(sizeof(Funcionario));
+    func = (Funcionario*) malloc(sizeof(Funcionario));
     
     scanf ("%d %d %lf", &func->codigo,&func->horas_t,&func->valor_h);
+
     printf ("NUMBER = %d\nSALARY = U$ %.2lf\n",func->codigo,(func->horas_t*func->valor_h));
     return 0;
 }
