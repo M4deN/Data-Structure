@@ -16,6 +16,7 @@ int main(){
     scanf ("%s",&vend->nome);
   
     scanf("%lf %lf",&vend->vendas,&vend->comissao);
+    
     vend->total = vend->vendas+((vend->comissao*15)/100);
     printf ("TOTAL = R$ %.2lf\n",vend->total);
     
