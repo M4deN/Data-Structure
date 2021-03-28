@@ -28,5 +28,6 @@ int main(){
     printf ("TRAPEZIO: %.3lf\n", calc->val6);
     printf ("QUADRADO: %.3lf\n", calc->val7);
     printf ("RETANGULO: %.3lf\n", calc->val8);
+    
     return 0;
 }
