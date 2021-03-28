@@ -3,6 +3,7 @@
 #include <string.h>
 
 typedef struct vendas{
+
 	int cod1,num1,cod2,num2;
 	double val1,val2,total;
 }Vendas;
