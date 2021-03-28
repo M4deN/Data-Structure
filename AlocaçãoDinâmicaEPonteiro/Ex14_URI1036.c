@@ -20,8 +20,9 @@ int main(){
     bhask->val5=pow(bhask->val4,.5);
     if(bhask->val4<0||bhask->val1==0)
         printf ("Impossivel calcular\n");
-    else
-    {
+
+    else{
+        
         bhask->val6=(-bhask->val2+bhask->val5)/(2*bhask->val1);
         bhask->val7=(-bhask->val2-bhask->val5)/(2*bhask->val1);
         printf ("R1 = %.5lf\n",bhask->val6);
