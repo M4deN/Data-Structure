@@ -22,11 +22,13 @@ int main(){
         printf ("Impossivel calcular\n");
 
     else{
-        
+
         bhask->val6=(-bhask->val2+bhask->val5)/(2*bhask->val1);
         bhask->val7=(-bhask->val2-bhask->val5)/(2*bhask->val1);
         printf ("R1 = %.5lf\n",bhask->val6);
         printf ("R2 = %.5lf\n",bhask->val7);
+
     }
+    
     return 0;
 }
