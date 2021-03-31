@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 typedef struct aluno{
-	
-	double nota1,nota2,nota3,nota4,nota5,v1,v2;
 
+	double nota1,nota2,nota3,nota4,nota5,v1,v2;
     
 }Aluno;
 
@@ -47,6 +46,6 @@ int main(){
 
         printf ("Media final: %.1lf\n",alunos->v2);
     }
-    
+
     return 0;
 }
