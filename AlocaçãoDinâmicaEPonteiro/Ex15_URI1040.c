@@ -35,9 +35,11 @@ int main(){
         printf ("Nota do exame: %.1lf\n",alunos->nota5);
 
         alunos->v2=(alunos->nota5+alunos->v1)/2;
-        
+
         if(alunos->v2>=5)
+
             printf ("Aluno aprovado.\n");
+            
         else if(alunos->v2<=4.9)
             printf ("Aluno reprovado.\n");
         printf ("Media final: %.1lf\n",alunos->v2);
