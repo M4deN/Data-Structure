@@ -28,10 +28,12 @@ int main(){
 
         printf("Aluno reprovado.\n");
 
-    else if(alunos->v1>=5&&alunos->v1<=6.9)
-    {
+    else if(alunos->v1>=5&&alunos->v1<=6.9){
+
         printf ("Aluno em exame.\n");
+
         scanf("%lf", &alunos->nota5);
+
         printf ("Nota do exame: %.1lf\n",alunos->nota5);
 
         alunos->v2=(alunos->nota5+alunos->v1)/2;
@@ -42,8 +44,9 @@ int main(){
 
         else if(alunos->v2<=4.9)
             printf ("Aluno reprovado.\n");
-            
+
         printf ("Media final: %.1lf\n",alunos->v2);
     }
+    
     return 0;
 }
