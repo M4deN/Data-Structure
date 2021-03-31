@@ -39,9 +39,10 @@ int main(){
         if(alunos->v2>=5)
 
             printf ("Aluno aprovado.\n");
-            
+
         else if(alunos->v2<=4.9)
             printf ("Aluno reprovado.\n");
+            
         printf ("Media final: %.1lf\n",alunos->v2);
     }
     return 0;
