@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main()
-{
+int main(){
+    
     int a,b=0;
     double c,d=0;
 
@@ -19,6 +19,6 @@ int main()
     c=b/d;
 
     printf("%.2lf\n",c);
-    
+
     return 0;
 }
