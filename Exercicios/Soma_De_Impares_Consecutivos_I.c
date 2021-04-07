@@ -1,40 +1,33 @@
 #include <stdio.h>
- 
+
 int main(){
- 
-  int x,y,soma,cont,temp;
+    
+int x,y,top=0,i,min,max;
 
-    while(scanf("%d%d",&x,&y)==2){
-        
-        soma=0;
 
-        if(x>y){
+    scanf("%d %d", &y,&x);
 
-            temp=x;
-            x=y;
-            y=temp;
-        
+    if (x<y){
+
+        min=x;
+        max=y;
+
+    }else{
+
+        max=x;
+        min=y;
     }
 
-    if(x%2!=0){
+    for(i=(min+1);i<max; ++i){
 
-        for(cont=x+2;cont<y;cont++){
+         if
+            (i%2==1 || i %2==-1){
 
-            if(cont%2!=0);
-
-                soma+=cont;
+         top+=i;
             }
         }
-        else{
-            for(cont=x+1;cont<y;cont++){
 
-             if(cont%2!=0);
+        printf("%d\n",top);
 
-                soma+=cont;
-            }
-        }
-        printf("%d\n",soma);
-    }
- 
     return 0;
 }
