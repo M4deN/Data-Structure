@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
+
+int main(){
+    
     double a=0.0, mat[12][12];
     char T[2];
     int C,x,y;
