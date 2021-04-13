@@ -10,18 +10,21 @@ int main(){
     for(x=0;x<=11;x++){
 
         for(y=0; y<=11; y++){
-            
+
         scanf("%lf", &M[x][y]);
+
         if(y==C)
             a+=M[x][y];
         }
     }
     if(T[0]=='S')
         printf("\n%.1lf\n",a);
-    else if(T[0]=='M')
-    {
+    else if(T[0]=='M'){
+
             a=a/12.0;
+
         printf("%.1lf\n",a);
     }
+    
     return 0;
 }
