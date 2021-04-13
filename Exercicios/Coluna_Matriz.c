@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main()
-{
+
+int main(){
     double a=0.0, M[12][12];
     char T[2];
     int C,x,y;
