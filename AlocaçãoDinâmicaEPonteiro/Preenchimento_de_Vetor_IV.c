@@ -3,7 +3,7 @@
 
 int main(){
     
-    int a,b,c=0,d,e,f,g,h,i,j,l=0,m=0,x=0,n,p;
+    int a,b,c=0,i,j,l=0,m=0,x=0,n,p;
     
     int *par,*impar,*para;
     
