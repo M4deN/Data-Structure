@@ -10,31 +10,35 @@ typedef struct {
    int vet[N];
 } stack;
 
-void newStack(stack *s) {
+void newStack(stack *s){
 
    s->top = 0;
 }
 
-int isEmpty(stack *s) {
-    
+int isEmpty(stack *s){
+
    return s->top == 0;
 }
 
-int isFull(stack *s) {
+int isFull(stack *s){
+
    return s->top == N;
 }
 
-void push(stack *s, int value) {
-   if (isFull(s)) {
+void push(stack *s, int value){
+
+   if (isFull(s)){
+
      printf("Stack overflow!\n");
+
      exit(1);
    }
 
    s->vet[s->top++] = value;
 }
 
-int pop(stack *s) {
-  if (isEmpty(s)) {
+int pop(stack *s){
+  if (isEmpty(s)){
     printf("Stack underflow!\n");
     exit(1);
   }
