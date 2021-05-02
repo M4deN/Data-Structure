@@ -99,20 +99,31 @@ int main(){
   showNumber(&p2, 2);
   showNumber(&p8, 8);
   showNumber(&p16, 16);
-  
+
 }
 
-void showNumber(stack *s, int base) {
+void showNumber(stack *s, int base){
+
   int aux;
+
   stack *p = (stack *)malloc(sizeof(stack));
+
   clone(s, p);
+
   printf("Base %2d: ", base);
-  while(!isEmpty(p)) {
+
+  while(!isEmpty(p)){
+
     aux = pop(p);
-    if (aux > 9) {
+
+    if (aux > 9){
+
       printf("%c", 'a' + aux % 10);
-    } else {
+
+    }else{
+
       printf("%d", aux);
+      
     }
   }
   printf("\n");
