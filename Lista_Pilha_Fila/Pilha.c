@@ -55,21 +55,29 @@ int top(stack *s){
   if (isEmpty(s)){
 
     printf("Stack underflow!\n");
-    
+
     exit(1);
   }
+
   return s->vet[s->top - 1];
+
 }
 
-void clone(stack *s1, stack *s2) {
+void clone(stack *s1, stack *s2){
+
   int i;
+
   s2->top = s1->top;
-  for (i = 0; i < s1->top; i++) {
+
+  for (i = 0; i < s1->top; i++){
+
     s2->vet[i] = s1->vet[i];
+
   }
 }
 
 void converte(stack *p, int n, int base);
+
 void showNumber(stack *s, int base);
 
 int main() {
