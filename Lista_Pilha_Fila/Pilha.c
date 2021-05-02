@@ -38,17 +38,24 @@ void push(stack *s, int value){
 }
 
 int pop(stack *s){
+
   if (isEmpty(s)){
+
     printf("Stack underflow!\n");
+
     exit(1);
   }
   s->top--;
+
   return s->vet[s->top];
 }
 
-int top(stack *s) {
-  if (isEmpty(s)) {
+int top(stack *s){
+
+  if (isEmpty(s)){
+
     printf("Stack underflow!\n");
+    
     exit(1);
   }
   return s->vet[s->top - 1];
