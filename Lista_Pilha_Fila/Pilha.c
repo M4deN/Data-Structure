@@ -123,15 +123,18 @@ void showNumber(stack *s, int base){
     }else{
 
       printf("%d", aux);
-      
+
     }
   }
   printf("\n");
 }
 
-void converte(stack *p, int n, int base) {
+void converte(stack *p, int n, int base){
+
   while(n != 0) {
+
     push(p, n % base);
+    
     n = n / base;
   }
 }
