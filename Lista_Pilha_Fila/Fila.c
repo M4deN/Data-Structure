@@ -25,11 +25,14 @@ int main() {
         scanf("%d", &num);
 
         newQueue(&q);
+
         for(i = 1; i <= num; i++) {
+
             enqueue(&q, i);
         }
 
         printf("Cartas descartadas: ");
+        
         for(i=1; i < num; i++) {
             printf("%d, ", dequeue(&q));
             enqueue(&q, dequeue(&q));
@@ -61,7 +64,7 @@ int main() {
         }
 
         int dequeue(queue *q) {
-            
+
         if (isEmpty(q)) {
             printf("Queue underflow!\n");
             exit(1);
