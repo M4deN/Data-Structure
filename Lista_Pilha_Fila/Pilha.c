@@ -80,12 +80,13 @@ void converte(stack *p, int n, int base);
 
 void showNumber(stack *s, int base);
 
-int main() {
+int main(){
+
   int n, i;
   stack p2, p8, p16;
 
   printf("Informe o numero: ");
-  scanf("%d",  &n);
+  scanf("%d",&n);
 
   newStack(&p2);
   newStack(&p8);
@@ -98,6 +99,7 @@ int main() {
   showNumber(&p2, 2);
   showNumber(&p8, 8);
   showNumber(&p16, 16);
+  
 }
 
 void showNumber(stack *s, int base) {
