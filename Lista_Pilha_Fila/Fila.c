@@ -62,12 +62,18 @@ int main() {
         }
 
         void enqueue(queue *q, int num){
-        if (isFull(q)) {
-            printf("Queue overflow!\n");
-            exit(1);
+
+            if (isFull(q)){
+
+                printf("Queue overflow!\n");
+
+                exit(1);
         }
+
         q->vet[q->tail] = num;
+
         q->tail++;
+        
         }
 
         int dequeue(queue *q) {
