@@ -1,9 +1,9 @@
 # Estrutura-De-Dados
 
-### Repositório criado para o compartilhamento de exercicios relacionados a disciplina estrutura de dados.
+### Repository created for sharing exercises related to data structure discipline.
 
-* Na Pasta Exercicios, estão disponiveis alguns exercicos de nivel fácil do URI que o professor nos passou com o intuito de relembrar alguns conceitos.
+* The Exercises folder contains some easy-to-use URI exercises that the teacher gave us in order to remember some concepts.
 
-* Na Pasta Alocação Dinânima e Ponteiros, estão disponiveis exercicos de nivel intermediário do URI o intuito era relembrar alguns conceitos de ponteiros e alocação.
+* In the Dynamic Allocation and Pointers Folder, URI intermediate level exercises are available. The intention was to remember some pointer and allocation concepts.
 
 Loading....
