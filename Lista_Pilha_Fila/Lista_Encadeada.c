@@ -47,7 +47,7 @@ Lista* deslocaMaior(Lista* L){
   return NULL;
 
   while(aux!=NULL){
-      
+
     if(info<aux->valor){
       info=aux->valor; 
       maior=aux;
@@ -63,12 +63,13 @@ Lista* deslocaMaior(Lista* L){
   }else if(maior->prox==NULL) { //Ultima posição
     antMaior->prox =NULL;
     maior->prox=L;    
-  } else{
+  }else{
+
     antMaior->prox = maior->prox;
     maior->prox=L;   
   } 
 
-return maior;
+    return maior;
 
 }
 
