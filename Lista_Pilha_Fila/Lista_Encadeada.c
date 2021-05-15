@@ -8,6 +8,7 @@ typedef struct lista{
 }Lista;
 
 Lista* insereIni(Lista* tempRef, int v){
+    
     Lista* pNovo = (Lista*) malloc(sizeof(Lista)); 
     pNovo->valor = v;
     pNovo->prox = tempRef;
@@ -16,6 +17,7 @@ Lista* insereIni(Lista* tempRef, int v){
 }
 
 Lista* insereFim(Lista* tempRef, int v){
+
     Lista* pNovo = (Lista*) malloc(sizeof(Lista)); 
     pNovo->valor = v;
     pNovo->prox = NULL;
