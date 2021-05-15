@@ -84,6 +84,7 @@ void imprime(Lista* L){
 }
 
 int main(){
+    
   //Lista vazia;
   Lista* pRef = NULL;
   
