@@ -19,8 +19,7 @@ void abb_imprime (Arv* a){
     }
 }
 
-Arv* abb_busca (Arv* r, int v)
-{
+Arv* abb_busca (Arv* r, int v){
     if (r == NULL ) return NULL ;
     else if (r->info > v) return abb_busca (r->esq, v);
     else if (r->info < v) return abb_busca (r->dir, v);
