@@ -11,8 +11,7 @@ Arv* abb_cria (void){
    return NULL;
 }
 
-void abb_imprime (Arv* a)
-{
+void abb_imprime (Arv* a){
     if (a != NULL) {
         abb_imprime(a->esq);
         printf("%d\n",a->info);
