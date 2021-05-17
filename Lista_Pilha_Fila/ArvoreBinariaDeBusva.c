@@ -41,8 +41,7 @@ Arv* abb_insere (Arv* a, int v){
 
        
 
-Arv* abb_retira (Arv* r, int v)
-{
+Arv* abb_retira (Arv* r, int v){
     if (r == NULL)
        return NULL;
     else if (r->info > v)
