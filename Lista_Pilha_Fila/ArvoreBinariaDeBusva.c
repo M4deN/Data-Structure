@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct arv {
     int info;
     struct arv* esq;
@@ -8,8 +7,7 @@ struct arv {
 };
 typedef struct arv Arv;
 
-Arv* abb_cria (void)
-{
+Arv* abb_cria (void){
    return NULL;
 }
 
