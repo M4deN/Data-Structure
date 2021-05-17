@@ -26,8 +26,7 @@ Arv* abb_busca (Arv* r, int v){
     else return r;
 }
 
-Arv* abb_insere (Arv* a, int v)
-{
+Arv* abb_insere (Arv* a, int v){
     if (a==NULL) {
         a = (Arv*)malloc(sizeof(Arv));
         a->info = v;
