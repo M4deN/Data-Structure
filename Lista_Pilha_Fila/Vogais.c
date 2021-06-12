@@ -6,7 +6,8 @@
 
 char *semVogal(char *nome);
 
-int main() {
+int main(){
+    
   char nome[MAX], *pnome;
 
   printf("Informe o nome: ");
@@ -19,6 +20,7 @@ int main() {
 }
 
 char *semVogal(char *nome) {
+
   char *aux, *novo = (char *)malloc(MAX);
   aux = novo;
   while (*nome != '\0') {
