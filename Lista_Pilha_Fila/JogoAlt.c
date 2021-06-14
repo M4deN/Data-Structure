@@ -64,7 +64,7 @@ void newQueue(queue *q){
   q->tail = 0;
 }
 
-int isEmpty(queue *q) {
+int isEmpty(queue *q){
   return q->head == q->tail;
 }
 
