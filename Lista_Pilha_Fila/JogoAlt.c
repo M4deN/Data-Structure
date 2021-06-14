@@ -76,7 +76,7 @@ int size(queue *q){
   return q->tail - q->head;
 }
 
-void enqueue(queue *q, int value, int qtd) {
+void enqueue(queue *q, int value, int qtd){
   if (isFull(q)) {
     printf("Queue overflow!\n");
     exit(1);
