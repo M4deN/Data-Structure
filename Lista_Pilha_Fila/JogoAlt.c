@@ -59,7 +59,7 @@ int comp(int n, int op){
   return n;
 }
 
-void newQueue(queue *q) {
+void newQueue(queue *q){
   q->head = 0;
   q->tail = 0;
 }
