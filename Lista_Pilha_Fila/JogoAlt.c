@@ -47,7 +47,7 @@ int main() {
   printf("Foram necessarios: %d operacoes\n", aux->c + 1);
 }
 
-int comp(int n, int op) {
+int comp(int n, int op){
   switch (op) {
     case 0: return n * 2; break;
     case 1: return n * 3; break;
