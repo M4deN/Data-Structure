@@ -68,7 +68,7 @@ int isEmpty(queue *q){
   return q->head == q->tail;
 }
 
-int isFull(queue *q) {
+int isFull(queue *q){
   return size(q) == N;
 }
 
