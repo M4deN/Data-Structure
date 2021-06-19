@@ -65,7 +65,7 @@ int valida(data *d){
   if (d->mes < 1 || d->mes > 12){
     return 0;
   }
-  if (d->dia < 1 || d->dia > diasMes(d->mes)) {
+  if (d->dia < 1 || d->dia > diasMes(d->mes)){
     return 0;
   }
   if (d->ano < 0 || d->ano > 3000) {
