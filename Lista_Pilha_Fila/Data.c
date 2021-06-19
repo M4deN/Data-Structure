@@ -37,7 +37,7 @@ int main() {
   return 0;
 }
 
-data *leData() {
+data *leData(){
   int vez = 0;
   data *d = (data *)malloc(sizeof(data));
   do {
