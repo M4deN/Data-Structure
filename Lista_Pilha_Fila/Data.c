@@ -61,7 +61,7 @@ void exibeData(data *d, int formato){
   }
 }
 
-int valida(data *d) {
+int valida(data *d){
   if (d->mes < 1 || d->mes > 12){
     return 0;
   }
