@@ -62,7 +62,7 @@ void exibeData(data *d, int formato){
 }
 
 int valida(data *d) {
-  if (d->mes < 1 || d->mes > 12) {
+  if (d->mes < 1 || d->mes > 12){
     return 0;
   }
   if (d->dia < 1 || d->dia > diasMes(d->mes)) {
