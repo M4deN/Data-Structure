@@ -108,7 +108,7 @@ int diasMes(int mes){
   return dia;
 }
 
-long int emDias(data *d) {
+long int emDias(data *d){
   int i;
   long int total;
   total = d->ano * 365 + d->dia;
