@@ -52,7 +52,7 @@ data *leData(){
   return d;
 }
 
-void exibeData(data *d, int formato) {
+void exibeData(data *d, int formato){
   switch (formato) {
     case 1: printf("%2d-%2d-%4d\n", d->dia, d->mes, d->ano); break;
     case 2: printf("%4d-%2d-%2d\n", d->ano, d->mes, d->dia); break;
