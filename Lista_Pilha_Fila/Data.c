@@ -74,7 +74,7 @@ int valida(data *d){
   return 1;
 }
 
-long int intervalo(data *d1, data *d2) {
+long int intervalo(data *d1, data *d2){
   if (maior(d1, d2))
     return emDias(d1) - emDias(d2);
   else
