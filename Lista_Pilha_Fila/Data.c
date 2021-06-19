@@ -89,7 +89,7 @@ int menor(data *d1, data *d2) {
   return emDias(d1) < emDias(d2);
 }
 
-int diasMes(int mes) {
+int diasMes(int mes){
   int dia = 30;
   switch (mes) {
     case 1:
