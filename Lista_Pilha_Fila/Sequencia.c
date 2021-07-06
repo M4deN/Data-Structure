@@ -42,7 +42,7 @@ int main(){
    printf("Informe a sequencia: ");
    scanf("%s", texto);
 
-   for (i=0; i < strlen(texto); i++) {
+   for (i=0; i < strlen(texto); i++){
      aux = texto[i];
      if (aux >= '0' && aux <= '9') {
        push(&s, aux);
