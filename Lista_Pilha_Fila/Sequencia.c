@@ -9,7 +9,7 @@ typedef struct {
    char vet[N];
 } stack;
 
-typedef struct {
+typedef struct{
    int head;
    int tail;
    char vet[N];
