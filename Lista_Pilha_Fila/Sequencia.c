@@ -44,7 +44,7 @@ int main(){
 
    for (i=0; i < strlen(texto); i++){
      aux = texto[i];
-     if (aux >= '0' && aux <= '9') {
+     if (aux >= '0' && aux <= '9'){
        push(&s, aux);
        aux = '9';
      }
