@@ -30,7 +30,7 @@ void push(stack *s, char value);
 char pop(stack *s);
 char top(stack *s);
 
-int main() {
+int main(){
    int i;
    queue q;
    stack s;
