@@ -53,7 +53,7 @@ int main(){
    }
 
    printf("\n\n%s -> ", texto);
-   while (!isEmpty(&q)) {
+   while (!isEmpty(&q)){
      aux = dequeue(&q);
      if (aux == '9') {
        printf("%c", pop(&s));
