@@ -70,7 +70,7 @@ void newStack(stack *s){
    s->top = 0;
 }
 
-int isStackEmpty(stack *s) {
+int isStackEmpty(stack *s){
    return s->top == 0;
 }
 
