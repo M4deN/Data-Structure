@@ -1,4 +1,4 @@
-# Estrutura-De-Dados
+# Data Structure
 
 ### Repository created for sharing exercises related to data structure discipline.
 
