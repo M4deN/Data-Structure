@@ -74,7 +74,7 @@ int isStackEmpty(stack *s){
    return s->top == 0;
 }
 
-int isStackFull(stack *s) {
+int isStackFull(stack *s){
    return s->top == N;
 }
 
