@@ -66,7 +66,7 @@ int main(){
 }
 
 
-void newStack(stack *s) {
+void newStack(stack *s){
    s->top = 0;
 }
 
