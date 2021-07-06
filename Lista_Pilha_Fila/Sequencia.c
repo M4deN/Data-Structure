@@ -78,7 +78,7 @@ int isStackFull(stack *s){
    return s->top == N;
 }
 
-void push(stack *s, char value) {
+void push(stack *s, char value){
    if (isStackFull(s)) {
      printf("Stack overflow!\n");
      exit(1);
