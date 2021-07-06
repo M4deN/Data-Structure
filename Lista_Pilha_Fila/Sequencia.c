@@ -4,7 +4,7 @@
 
 #define N 50
 
-typedef struct {
+typedef struct{
    int top;
    char vet[N];
 } stack;
