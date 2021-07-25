@@ -141,6 +141,7 @@ void showQueue(queue *q) {
     printf("%d ", q->vet[i%N]);
 
   }
-  
+
   printf("\n");
+  
 }
