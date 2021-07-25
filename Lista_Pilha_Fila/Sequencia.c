@@ -134,9 +134,10 @@ char dequeue(queue *q) {
 }
 
 void showQueue(queue *q) {
+  
   int i;
   printf("Queue: ");
-  
+
   for (i=q->head; i<q->tail; i++) {
 
     printf("%d ", q->vet[i%N]);
