@@ -139,7 +139,8 @@ void showQueue(queue *q) {
   for (i=q->head; i<q->tail; i++) {
 
     printf("%d ", q->vet[i%N]);
-    
+
   }
+  
   printf("\n");
 }
