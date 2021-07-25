@@ -126,8 +126,9 @@ void enqueue(queue *q, char value) {
 }
 
 char dequeue(queue *q) {
-  
+
   if (isEmpty(q)) {
+    
     printf("Queue underflow!\n");
     exit(1);
   }
