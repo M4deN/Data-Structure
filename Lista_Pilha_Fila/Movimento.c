@@ -59,7 +59,7 @@ void clone(queue *q1, queue *q2) {
 
 void showQueue(queue *q) {
   char c;
-  
+
   int i, x = 0, y = 0;
   printf("Instrucoes: ");
   for (i=q->head; i<q->tail; i++) {
@@ -84,6 +84,7 @@ void showQueue(queue *q) {
 }
 
 void mergeQueues(queue *target, queue *q1, queue *q2) {
+    
   char c;
   queue maior, menor;
 
