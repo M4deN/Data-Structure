@@ -124,7 +124,7 @@ void newQueue(queue *q) {
 }
 
 int size(queue *q) {
-    
+
   return q->tail - q->head;
 }
 
@@ -133,11 +133,14 @@ int isEmpty(queue *q) {
 }
 
 int isFull(queue *q) {
+
   return q->tail == N;
 }
 
 void enqueue(queue *q, char num) {
+    
   if (isFull(q)) {
+
     printf("Queue overflow!\n");
     exit(1);
   }
