@@ -22,6 +22,7 @@ void showQueue(queue *q);
 void clone(queue *q1, queue *q2);
 
 int main() {
+    
   int num, i;
   char seq[N];
   queue q1, q2, q3;
