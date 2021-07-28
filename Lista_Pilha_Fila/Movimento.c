@@ -49,7 +49,7 @@ int main() {
 
 void clone(queue *q1, queue *q2) {
   int i;
-  
+
   q2->head = q1->head;
   q2->tail = q1->tail;
   for (i=q1->head; i<q1->tail; i++) {
@@ -59,6 +59,7 @@ void clone(queue *q1, queue *q2) {
 
 void showQueue(queue *q) {
   char c;
+  
   int i, x = 0, y = 0;
   printf("Instrucoes: ");
   for (i=q->head; i<q->tail; i++) {
