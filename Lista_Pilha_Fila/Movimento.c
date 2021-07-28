@@ -22,7 +22,8 @@ void showQueue(queue *q);
 void clone(queue *q1, queue *q2);
 
 int main() {
-    
+
+
   int num, i;
   char seq[N];
   queue q1, q2, q3;
@@ -48,6 +49,7 @@ int main() {
 
 void clone(queue *q1, queue *q2) {
   int i;
+  
   q2->head = q1->head;
   q2->tail = q1->tail;
   for (i=q1->head; i<q1->tail; i++) {
