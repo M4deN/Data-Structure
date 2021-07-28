@@ -108,7 +108,7 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
 }
 
 void fillQueue(queue *q, char *seq) {
-    
+
   while(*seq != '\0') {
     if (*seq == 'a' || *seq == 's' || *seq == 'd' || *seq == 'w') {
       enqueue(q, *seq);
@@ -118,11 +118,13 @@ void fillQueue(queue *q, char *seq) {
 }
 
 void newQueue(queue *q) {
+
   q->head = 0;
   q->tail = 0;
 }
 
 int size(queue *q) {
+    
   return q->tail - q->head;
 }
 
