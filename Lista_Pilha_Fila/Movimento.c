@@ -144,8 +144,9 @@ void enqueue(queue *q, char num) {
     printf("Queue overflow!\n");
 
     exit(1);
-    
+
   }
+  
   q->vet[q->tail] = num;
   q->tail++;
 }
