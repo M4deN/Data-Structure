@@ -153,8 +153,9 @@ char dequeue(queue *q) {
   if (isEmpty(q)) {
 
     printf("Queue underflow!\n");
-    
+
     exit(1);
+    
   }
   return q->vet[q->head++];
 }
