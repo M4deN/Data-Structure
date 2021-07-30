@@ -129,6 +129,7 @@ int size(queue *q) {
 }
 
 int isEmpty(queue *q) {
+  
   return q->head == q->tail;
 }
 
@@ -150,7 +151,7 @@ void enqueue(queue *q, char num) {
   q->vet[q->tail] = num;
 
   q->tail++;
-  
+
 }
 
 char dequeue(queue *q) {
