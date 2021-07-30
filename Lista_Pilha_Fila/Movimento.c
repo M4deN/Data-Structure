@@ -146,8 +146,9 @@ void enqueue(queue *q, char num) {
     exit(1);
 
   }
-  
+
   q->vet[q->tail] = num;
+  
   q->tail++;
 }
 
