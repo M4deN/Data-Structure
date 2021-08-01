@@ -102,8 +102,9 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
     enqueue(target, dequeue(&maior));
 
     c = dequeue(&menor);
-    
+
     enqueue(target, c);
+    
     enqueue(&menor, c);
   }
 }
