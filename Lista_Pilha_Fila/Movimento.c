@@ -58,6 +58,7 @@ void clone(queue *q1, queue *q2) {
 }
 
 void showQueue(queue *q) {
+  
   char c;
 
   int i, x = 0, y = 0;
@@ -67,8 +68,9 @@ void showQueue(queue *q) {
   for (i=q->head; i<q->tail; i++) {
 
     c = q->vet[i%N];
-    
+
     switch (c) {
+
       case 'a':
         x--;
         break;
