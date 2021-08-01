@@ -79,6 +79,7 @@ void showQueue(queue *q) {
         break;
     }
     printf("%c", c);
+    
   }
   printf(": X: %d, Y: %d\n", x, y);
 }
@@ -86,6 +87,7 @@ void showQueue(queue *q) {
 void mergeQueues(queue *target, queue *q1, queue *q2) {
 
   char c;
+
   queue maior, menor;
 
 
@@ -98,7 +100,7 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
   } else {
 
     clone(q1, &menor);
-    
+
     clone(q2, &maior);
   }
 
