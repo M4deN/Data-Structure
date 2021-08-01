@@ -79,8 +79,9 @@ void showQueue(queue *q) {
         break;
     }
     printf("%c", c);
-    
+
   }
+  
   printf(": X: %d, Y: %d\n", x, y);
 }
 
