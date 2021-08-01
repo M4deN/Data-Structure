@@ -96,8 +96,9 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
     clone(q2, &menor);
 
   } else {
-    
+
     clone(q1, &menor);
+    
     clone(q2, &maior);
   }
 
