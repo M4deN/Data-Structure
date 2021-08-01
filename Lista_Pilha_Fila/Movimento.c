@@ -90,6 +90,7 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
 
 
   if (size(q1) > size(q2)) {
+    
     clone(q1, &maior);
     clone(q2, &menor);
   } else {
@@ -104,7 +105,7 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
     c = dequeue(&menor);
 
     enqueue(target, c);
-    
+
     enqueue(&menor, c);
   }
 }
