@@ -110,9 +110,11 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
 void fillQueue(queue *q, char *seq) {
 
   while(*seq != '\0') {
-    
+
     if (*seq == 'a' || *seq == 's' || *seq == 'd' || *seq == 'w') {
+
       enqueue(q, *seq);
+      
     }
     seq++;
   }
