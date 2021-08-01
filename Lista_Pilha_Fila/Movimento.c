@@ -61,7 +61,9 @@ void showQueue(queue *q) {
   char c;
 
   int i, x = 0, y = 0;
+
   printf("Instrucoes: ");
+  
   for (i=q->head; i<q->tail; i++) {
     c = q->vet[i%N];
     switch (c) {
@@ -81,7 +83,7 @@ void showQueue(queue *q) {
     printf("%c", c);
 
   }
-  
+
   printf(": X: %d, Y: %d\n", x, y);
 }
 
