@@ -63,9 +63,11 @@ void showQueue(queue *q) {
   int i, x = 0, y = 0;
 
   printf("Instrucoes: ");
-  
+
   for (i=q->head; i<q->tail; i++) {
+
     c = q->vet[i%N];
+    
     switch (c) {
       case 'a':
         x--;
