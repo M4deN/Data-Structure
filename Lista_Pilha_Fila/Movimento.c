@@ -102,6 +102,7 @@ void mergeQueues(queue *target, queue *q1, queue *q2) {
     enqueue(target, dequeue(&maior));
 
     c = dequeue(&menor);
+    
     enqueue(target, c);
     enqueue(&menor, c);
   }
@@ -114,7 +115,7 @@ void fillQueue(queue *q, char *seq) {
     if (*seq == 'a' || *seq == 's' || *seq == 'd' || *seq == 'w') {
 
       enqueue(q, *seq);
-      
+
     }
     seq++;
   }
