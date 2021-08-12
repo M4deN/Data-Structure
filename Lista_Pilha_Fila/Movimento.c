@@ -90,10 +90,12 @@ void showQueue(queue *q) {
         break;
 
       case 'w':
-      
+
         y++;
+
         break;
     }
+    
     printf("%c", c);
 
   }
