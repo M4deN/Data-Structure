@@ -88,8 +88,9 @@ void showQueue(queue *q) {
         y--;
 
         break;
-        
+
       case 'w':
+      
         y++;
         break;
     }
