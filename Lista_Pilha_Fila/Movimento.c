@@ -72,6 +72,7 @@ void showQueue(queue *q) {
     switch (c) {
 
       case 'a':
+      
         x--;
         break;
       case 'd':
