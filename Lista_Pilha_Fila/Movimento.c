@@ -76,8 +76,9 @@ void showQueue(queue *q) {
         x--;
 
         break;
-        
+
       case 'd':
+      
         x++;
         break;
       case 's':
