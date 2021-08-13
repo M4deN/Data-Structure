@@ -6,4 +6,4 @@
 
 * In the Dynamic Allocation and Pointers Folder, URI intermediate level exercises are available. The intention was to remember some pointer and allocation concepts.
 
-Loading....
+* in the folder List_Stack_Queue are some exercises developed in class and some of the binary search tree AVL. and balanced search tree.
