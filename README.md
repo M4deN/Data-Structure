@@ -2,7 +2,7 @@
 
 Este repositório contém uma série de exercícios e implementações relacionadas a Estrutura de Dados, organizados da seguinte maneira:
 
-## Pasta `AlocaçãoDinâmicaEPonteiro`
+## `AlocaçãoDinâmicaEPonteiro`
 - `Cálculo_Simples.c`: Este programa lê o código de uma peça e o número de peças.
 - `Fórmula_De_Bhaskara.c`: Lê três valores de ponto flutuante e calcula as raízes da equação.
 - `Menor_e_Posição.c`: Lê um valor N e encontra o menor valor e sua posição em um vetor.
@@ -16,7 +16,7 @@ Este repositório contém uma série de exercícios e implementações relaciona
 - `Seleção_em_Vetor_I.c`: Lê um vetor A[100] e mostra os elementos menores ou iguais a 10.
 - `Área_Direita.c`: Lê um caractere e realiza uma operação em uma matriz.
 
-## Pasta `Exercicios`
+## `Exercicios`
 - `Area_Direita.c`: Lê um caractere maiúsculo, que indica uma operação a ser realizada.
 - `Coluna_Matriz.c`: Lê um número C e realiza operações em uma matriz.
 - `Idades.c`: Algoritmo para ler um número indeterminado de dados relacionados a idades.
@@ -28,7 +28,7 @@ Este repositório contém uma série de exercícios e implementações relaciona
 - `Substituição_Em_Vetor_I.c`: Lê um vetor X[10] e substitui os valores por outros determinados.
 - `Troca_Em_Vetor _I.c`: Realiza trocas em um vetor.
 
-## Pasta `Lista_Pilha_Fila`
+## `Lista_Pilha_Fila`
 - `ArvoreBinariaDeBusca.c`: Implementação de uma Árvore Binária de Busca.
 - `Data.c`: Implementação de manipulação de datas.
 - `Fila.c`: Implementação de uma Fila.
@@ -39,7 +39,7 @@ Este repositório contém uma série de exercícios e implementações relaciona
 - `Sequencia.c`: Implementação de manipulação de sequências.
 - `Vogais.c`: Contagem de vogais em uma string.
 
-Cada arquivo `.c` contém um exercício ou implementação associada ao nome do arquivo.
+Cada arquivo `.c` contém um exercício ou implementação associada ao nome do arquivo com a utilização de pilha, fila, lista ou arvore.
 
 ---
 
